@@ -162,7 +162,8 @@ public class principal extends javax.swing.JFrame {
         if(sub){
             return perguntarSubGrupo(grupo, sub, perguntaPratoGrupo);
         }else{
-        if (JOptionPane.showConfirmDialog(null, "O prato que você pensou é " + grupo.getPrato().getDescricaoPrato(), "Corfirme", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {
+        if (JOptionPane.showConfirmDialog(null, "O prato que você pensou é " + grupo.getPrato().getDescricaoPrato(),
+             "Corfirme", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {
             acertei();
             return true;
             //Não 
